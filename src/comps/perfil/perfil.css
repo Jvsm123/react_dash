@@ -1,0 +1,79 @@
+#perfil
+{
+	width: 27.7rem;
+	height: 33.5rem;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: var(--Dark-blue);
+
+	border-radius: 15px;
+
+	margin-left: 1rem;
+}
+
+#report
+{
+	background-color: var(--Blue);
+
+	width: 100%;
+
+	padding: 1.5rem;
+
+	border-radius: 15px;
+}
+
+#report > img
+{
+	width: 6.5rem;
+	height: 6.5rem;
+
+	margin-bottom: 2rem;
+
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+#report > h3
+{
+	font-size: 11pt;
+	font-weight: 400;
+}
+
+#report > h1
+{
+	font-size: 28pt;
+	font-weight: 300;
+	margin-bottom: 3.5rem;
+}
+
+#days
+{
+	width: 100%;
+	height: 50%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+
+	padding: .5rem 1.5rem;
+}
+
+#days > h4
+{
+	font-size: 13pt;
+	font-weight: 400;
+
+	color: var(--Desaturated-blue);
+
+	transition: .5s;
+}
+
+#days > h4:hover
+{
+	color: var(--Pale-Blue);
+	cursor: pointer;
+}
