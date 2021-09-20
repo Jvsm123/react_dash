@@ -37,7 +37,6 @@ body
 {
 	height: 100vh;
 
-	font-family: 'Roboto', 'Ubuntu', sans-serif;
 	background-color: var(--Very-dark-blue);
 
 	display: flex;

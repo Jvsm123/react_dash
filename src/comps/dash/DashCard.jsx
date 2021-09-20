@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Dots from './imgs/three-dots.svg';
 import Icon from './imgs/icon-work.svg';
 
@@ -6,6 +7,14 @@ import './dashCard.css';
 
 export default function DashCard( props )
 {
+	const [ dados, setDados ] = useState([]);
+
+	useEffect( () =>
+	{
+		axios.get('http://localhost:5000/dados')
+			.then( res => setDados(res) );
+	}, []);
+	
 	return (
 		<div id="card">
 			<span>
