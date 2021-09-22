@@ -77,3 +77,11 @@
 	color: var(--Pale-Blue);
 	cursor: pointer;
 }
+
+@media screen and (mim-width: 1200px)
+{
+	#perfil
+	{
+		width: 35%;
+	}
+}

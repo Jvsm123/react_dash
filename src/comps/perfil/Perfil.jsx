@@ -2,7 +2,7 @@ import React from 'react';
 import Jeremy from './imgs/image-jeremy.png';
 import './perfil.css';
 
-export default function Perfil()
+export default function Perfil( props )
 {
 	return (
 		<div id="perfil">
@@ -13,9 +13,9 @@ export default function Perfil()
 			</div>
 
 			<div id="days">
-				<h4>Daily</h4>
-				<h4>Weekly</h4>
-				<h4>Monthly</h4>
+				<h4 onClick={() => props.setOp(1)}>Daily</h4>
+				<h4 onClick={() => props.setOp(2)}>Weekly</h4>
+				<h4 onClick={() => props.setOp(3)}>Monthly</h4>
 			</div>
 		</div>
 	);

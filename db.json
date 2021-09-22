@@ -15,7 +15,9 @@
 					"current": 103,
 					"previous": 128
 				}
-			}
+			},
+			"cor": "--Light-red-work",
+			"i": "1"
 		},
 		{
 			"title": "Play",
@@ -32,7 +34,9 @@
 					"current": 23,
 					"previous": 29
 				}
-			}
+			},
+			"cor": "--Soft-blue-play",
+			"i": "2"
 		},
 		{
 			"title": "Study",
@@ -49,7 +53,9 @@
 					"current": 13,
 					"previous": 19
 				}
-			}
+			},
+			"cor": "--Light-red-study",
+			"i": "3"
 		},
 		{
 			"title": "Exercise",
@@ -66,7 +72,9 @@
 					"current": 11,
 					"previous": 18
 				}
-			}
+			},
+			"cor": "--Lime-green-exercise",
+			"i": "4"
 		},
 		{
 			"title": "Social",
@@ -83,7 +91,9 @@
 					"current": 21,
 					"previous": 23
 				}
-			}
+			},
+			"cor": "--Violet-social",
+			"i": "5"
 		},
 		{
 			"title": "Self Care",
@@ -100,7 +110,9 @@
 					"current": 7,
 					"previous": 11
 				}
-			}
+			},
+			"cor": "--Soft-orange-self",
+			"i": "6"
 		}
 	]
 }
