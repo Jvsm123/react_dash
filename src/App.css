@@ -28,10 +28,7 @@
 	--Pale-Blue: hsl(236, 100%, 87%);
 }
 
-html
-{
-	height: 100vh;
-}
+html { height: 100vh; }
 
 body
 {
@@ -43,7 +40,7 @@ body
 	align-items: center;
 }
 
-#main
-{
-	display: flex;
-}
+#main { display: flex }
+
+@media screen and (max-width: 1240px) { #main { align-items: normal } }
+@media screen and (max-width: 1024px) { #main { display: inline } }

@@ -5,3 +5,23 @@
 	justify-content: space-evenly;
 	align-items: space-between;
 }
+
+@media screen and (max-width: 1024px)
+{
+	#cards
+	{
+		width: 100vw;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (min-width: 1325px)
+{
+	#cards
+	{
+		width: calc(100vw - 30vw);
+		height: 87vh;
+		display: flex;
+		align-items: center;
+	}
+}

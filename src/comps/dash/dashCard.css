@@ -24,52 +24,76 @@
 	margin-right: 1rem;
 }
 
-	#inner-card
+#inner-card
+{
+	height: 80%;
+	width: 100%;
+
+	padding: 1.6rem;
+
+	background-color: var(--Dark-blue);
+
+	border-radius: 15px;
+}
+
+#inner-card-type
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#inner-card-type > img
+{
+	width: 2.2rem;
+	height: 2.2rem;
+
+	color: white;
+}
+
+#schedulers
+{
+	height: 7rem;
+
+	margin-top: .5rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#schedulers > h1
+{
+	font-size: 54pt;
+	font-weight: 300;
+}
+
+#schedulers > h4
+{
+	font-weight: 400;
+	color: var(--Desaturated-blue);
+}
+
+@media screen and (max-width: 1024px)
+{
+	.dashcard-card
 	{
-		height: 80%;
-		width: 100%;
+		padding: 0;
+		margin: 18px 0px;
+	}
+}
 
-		padding: 1.6rem;
-
-		background-color: var(--Dark-blue);
-
-		border-radius: 15px;
+@media screen and (min-width: 1325px)
+{
+	#card
+	{
+		width: 30%;
+		height: 40%;
+		margin: 0px 0px 0px 3%;
 	}
 
-	#inner-card-type
+	span
 	{
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		height: 2.55rem;
 	}
-
-	#inner-card-type > img
-	{
-		width: 2.2rem;
-		height: 2.2rem;
-
-		color: white;
-	}
-
-	#schedulers
-	{
-		height: 7rem;
-
-		margin-top: .5rem;
-
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	}
-
-	#schedulers > h1
-	{
-		font-size: 54pt;
-		font-weight: 300;
-	}
-
-	#schedulers > h4
-	{
-		font-weight: 400;
-		color: var(--Desaturated-blue);
-	}
+}
